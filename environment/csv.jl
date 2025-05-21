@@ -28,7 +28,7 @@ function get_train_and_test_data_and_all_data(filename::String, args)::Tuple{Arr
     all_data = CSV.File(filename; stringtype=String, header=false) |> DataFrame
     all_data = Matrix(all_data)
 
-    train_ratio = 0.9
+    train_ratio = 0.9 # Monte Carlo CV (Training:Testing = 9:1)
     train_data_length::Int64 = Int(floor(size(all_data, 1) * train_ratio))
     test_data_length::Int64 = size(all_data, 1) - train_data_length
 

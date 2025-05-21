@@ -108,8 +108,6 @@ function parse_commandline()
     return parse_args(s)
 end
 
-
-
 function main_csv(args; now_str=Dates.format(Dates.now(), "Y-m-d-H-M-S"))
     env = Environment(args)
     param = Parameters(args)
@@ -118,7 +116,7 @@ function main_csv(args; now_str=Dates.format(Dates.now(), "Y-m-d-H-M-S"))
     println("[ Settings ]")
     println("    Environment = ", get_environment_name(env))
     println("         #Epoch = ", args["epoch"])
-    println("          #Inst = ", size(env.all_data, 1))
+    println("          #Inst = $(size(env.all_data, 1)) (Train:Test = $(size(env.train_data, 1)):$(size(env.test_data, 1)))")
     println("           #Fea = ", env.state_length)
 
     println("[ X-KAN General Parameters ]")
