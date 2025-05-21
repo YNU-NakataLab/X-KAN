@@ -149,7 +149,7 @@ Training Mean Absolute Error: 0.09326392201698498
 ```
 
 #### `global_kan_summary.csv` <!-- omit in toc -->
-For comparative analysis, when running X-KAN with the benchmarking flag `--compare-kan=true`, the system simultaneously executes both X-KAN and a conventional single global KAN model. This dual execution records training and testing MAE metrics for both approaches in `global_kan_summary.csv`.
+For comparative analysis, when running X-KAN with the benchmarking flag `--compare_kan=true`, the system simultaneously executes both X-KAN and a conventional single global KAN model. The performance metric of the global KAN model - including training MAE and testing MAE - are saved as `global_kan_summary.csv`.
 
 ```
  A Single Global KAN Model:
