@@ -3,7 +3,7 @@ This repository contains the implementation for the IJCAI 2025 paper:
 
 >Hiroki Shiraishi, Hisao Ishibuchi, and Masaya Nakata. 2025. **X-KAN: Optimizing Local Kolmogorov-Arnold Networks via Evolutionary Rule-Based Machine Learning**. In Proceeding of the 34th International Joint Conference on Artificial Intelligence (IJCAI '25). Accepted.
 
-An extended version of this paper, including appendices, are available at: https://arxiv.org/abs/2505.14273.
+An extended version of this paper, including appendices, are available at: https://doi.org/10.48550/arXiv.2505.14273.
 
 This repository provides the implementation of **X-KAN**, a novel function approximation method that integrates KAN (Kolmogorov-Arnold Networks) <sup><a id="ref1"></a>[[1]](#1)</sup> with an evolutionary rule-based machine learning algorithm called [XCSF](https://en.wikipedia.org/wiki/Learning_classifier_system) (X Classifier System for Function Approximation) <sup><a id="ref2"></a>[[2]](#2)</sup> <sup><a id="ref3"></a>[[3]](#3)</sup>. The evolutionary framework is written in Julia, with Python integration for the KAN models.
 
