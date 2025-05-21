@@ -22,7 +22,6 @@ Represents a single rule in the X-KAN system, combining:
 - `match_set_size::Float64`: Average size of match sets containing this classifier
 - `numerosity::Int64`: Number of subsumed rules represented by this classifier
 - `accuracy::Float64`: Normalized accuracy measure
-- `weight::String`: Model type identifier (fixed as "KAN" in this implementation)
 - `kan::PyObject`: Reference to Python KAN model object
 """
 mutable struct Classifier
