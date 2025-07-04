@@ -1,7 +1,7 @@
 # X-KAN <!-- omit in toc -->
 This repository contains the implementation for the IJCAI 2025 paper:
 
->Hiroki Shiraishi, Hisao Ishibuchi, and Masaya Nakata. 2025. **X-KAN: Optimizing Local Kolmogorov-Arnold Networks via Evolutionary Rule-Based Machine Learning**. In Proceeding of the 34th International Joint Conference on Artificial Intelligence (IJCAI '25). Accepted.
+>Hiroki Shiraishi, Hisao Ishibuchi, and Masaya Nakata. 2025. **X-KAN: Optimizing Local Kolmogorov-Arnold Networks via Evolutionary Rule-Based Machine Learning**. In Proceedings of the 34th International Joint Conference on Artificial Intelligence (IJCAI '25). Accepted.
 
 An extended version of this paper, including appendices, are available at: https://doi.org/10.48550/arXiv.2505.14273.
 
@@ -288,7 +288,7 @@ We use the implementation of KAN from [pykan repository](https://github.com/Kind
 
 The copyright of this X-KAN repository belongs to the authors in the [Evolutionary Intelligence Research Group](http://www.nkt.ynu.ac.jp/en/) (Nakata Lab) at Yokohama National University, Japan. You are free to use this code for research purposes. In such cases, we kindly request that you cite the following paper:
 
->Hiroki Shiraishi, Hisao Ishibuchi, and Masaya Nakata. 2025. **X-KAN: Optimizing Local Kolmogorov-Arnold Networks via Evolutionary Rule-Based Machine Learning**. In Proceeding of the 34th International Joint Conference on Artificial Intelligence (IJCAI '25). Accepted.
+>Hiroki Shiraishi, Hisao Ishibuchi, and Masaya Nakata. 2025. **X-KAN: Optimizing Local Kolmogorov-Arnold Networks via Evolutionary Rule-Based Machine Learning**. In Proceedings of the 34th International Joint Conference on Artificial Intelligence (IJCAI '25). Accepted.
 
 ```bibtex
 @inproceedings{shiraishi2025xkan,
