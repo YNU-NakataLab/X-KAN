@@ -1,7 +1,7 @@
 # X-KAN <!-- omit in toc -->
 This repository contains the implementation for the IJCAI 2025 paper:
 
->Hiroki Shiraishi, Hisao Ishibuchi, and Masaya Nakata. 2025. **X-KAN: Optimizing Local Kolmogorov-Arnold Networks via Evolutionary Rule-Based Machine Learning**. In Proceedings of the 34th International Joint Conference on Artificial Intelligence (IJCAI '25). Accepted.
+>Hiroki Shiraishi, Hisao Ishibuchi, and Masaya Nakata. 2025. **X-KAN: Optimizing Local Kolmogorov-Arnold Networks via Evolutionary Rule-Based Machine Learning**. In Proceedings of the 34th International Joint Conference on Artificial Intelligence (IJCAI '25) Main Track. Pages 8930-8938. https://doi.org/10.24963/ijcai.2025/993.
 
 An extended version of this paper, including appendices, are available at: https://doi.org/10.48550/arXiv.2505.14273.
 
@@ -288,16 +288,22 @@ We use the implementation of KAN from [pykan repository](https://github.com/Kind
 
 The copyright of this X-KAN repository belongs to the authors in the [Evolutionary Intelligence Research Group](http://www.nkt.ynu.ac.jp/en/) (Nakata Lab) at Yokohama National University, Japan. You are free to use this code for research purposes. In such cases, we kindly request that you cite the following paper:
 
->Hiroki Shiraishi, Hisao Ishibuchi, and Masaya Nakata. 2025. **X-KAN: Optimizing Local Kolmogorov-Arnold Networks via Evolutionary Rule-Based Machine Learning**. In Proceedings of the 34th International Joint Conference on Artificial Intelligence (IJCAI '25). Accepted.
+>Hiroki Shiraishi, Hisao Ishibuchi, and Masaya Nakata. 2025. **X-KAN: Optimizing Local Kolmogorov-Arnold Networks via Evolutionary Rule-Based Machine Learning**. In Proceedings of the 34th International Joint Conference on Artificial Intelligence (IJCAI '25) Main Track. Pages 8930-8938. https://doi.org/10.24963/ijcai.2025/993.
 
 ```bibtex
 @inproceedings{shiraishi2025xkan,
-author = {Shiraishi, Hiroki and Ishibuchi, Hisao and Nakata, Masaya},
-title = {X-KAN: Optimizing Local Kolmogorov-Arnold Networks via Evolutionary Rule-Based Machine Learning},
-year = {2025},
-booktitle = {Proceedings of the Thirty-Fourth International Joint Conference on Artificial Intelligence},
-location = {Montreal, Canada},
-series = {IJCAI '25}
+  title     = {X-KAN: Optimizing Local Kolmogorov-Arnold Networks via Evolutionary Rule-Based Machine Learning},
+  author    = {Shiraishi, Hiroki and Ishibuchi, Hisao and Nakata, Masaya},
+  booktitle = {Proceedings of the Thirty-Fourth International Joint Conference on
+               Artificial Intelligence, {IJCAI-25}},
+  publisher = {International Joint Conferences on Artificial Intelligence Organization},
+  editor    = {James Kwok},
+  pages     = {8930--8938},
+  year      = {2025},
+  month     = {8},
+  note      = {Main Track},
+  doi       = {10.24963/ijcai.2025/993},
+  url       = {https://doi.org/10.24963/ijcai.2025/993},
 }
 ```
 
